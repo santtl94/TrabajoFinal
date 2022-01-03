@@ -1,0 +1,21 @@
+.bg-blanco {
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.loguito:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.negrin {
+    color: black;
+    &:hover {
+        color: black;
+        
+    }  
+}
+
