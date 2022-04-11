@@ -2,6 +2,8 @@
     padding: 20px 0;
     background-color: #FEE3EC;
     margin: 0;
+    position: relative;
+    bottom: 0;
     .redes {
         text-align: center;
         padding-bottom: 25px;
@@ -42,6 +44,13 @@
 
 .copyright {
     text-align: center;
-    color: #aaa;
+    color: rgb(63, 62, 62);
     padding-top: 20px;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
 }

@@ -1,33 +1,41 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .bg-blanco {
-  background-color: white; }
+  background-color: white;
+}
 
 h1 {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300; }
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
 
 .loguito:hover {
   transform: scale(1.2);
-  transition: all 1s; }
+  transition: all 1s;
+}
 
 .negrin {
-  color: black; }
-  .negrin:hover {
-    color: black; }
+  color: black;
+}
+.negrin:hover {
+  color: black;
+}
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: white; }
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+}
 
 h2 {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: underline; }
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline;
+}
 
 .ppdd {
   padding: 20px 100px 50px;
@@ -37,47 +45,68 @@ h2 {
   text-align: center;
   padding: auto;
   border: black 2px none;
-  border-radius: 20px; }
+  border-radius: 20px;
+}
 
 .contact {
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+}
 
 p {
-  color: #676FA3; }
+  color: #676FA3;
+}
 
 .footer {
   padding: 20px 0;
   background-color: #FEE3EC;
-  margin: 0; }
-  .footer .redes {
-    text-align: center;
-    padding-bottom: 25px; }
-    .footer .redes a {
-      color: black;
-      opacity: 0.75;
-      text-decoration: none;
-      width: 40px;
-      height: 40px;
-      line-height: 38px;
-      display: inline-block;
-      text-align: center;
-      margin: 0 8px; }
+  margin: 0;
+  position: relative;
+  bottom: 0;
+}
+.footer .redes {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.footer .redes a {
+  color: black;
+  opacity: 0.75;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+}
 
 .footer ul {
   margin-top: 0;
   padding: 0;
   line-height: 1.6;
   margin-bottom: 0;
-  text-align: center; }
-  .footer ul li {
-    color: black;
-    display: inline-block;
-    padding: 0 15px; }
-    .footer ul li a {
-      text-decoration: none;
-      color: black; }
+  text-align: center;
+}
+.footer ul li {
+  color: black;
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
 
 .copyright {
   text-align: center;
-  color: #aaa;
-  padding-top: 20px; }
+  color: #3f3e3e;
+  padding-top: 20px;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
